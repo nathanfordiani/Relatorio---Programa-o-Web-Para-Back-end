@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-image: url("image/image.png");
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0%;
+    left: 00%;
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #333333;
+}
+
+form {
+    background: #f3f3f3;
+    width: 20vw;
+    
+}
+div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    
+    display: block;
+    width: 70%;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    padding-left: 3%;
+}
+
+h1 {
+    position: absolute;
+    top: 20vh;
+
+}
+
+label {
+    margin-right: 5px;
+    height: 2vh;
+}
+
+input[type="submit"] {
+    padding: 3%;
+    background-color: #7ABA78;
+    color: white;
+    border-radius: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0A6847;
+}
